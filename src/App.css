@@ -1,38 +1,38 @@
 
 
-.movie-list{
+.games-list{
   display:flex;
   gap:10px;
   flex-wrap: wrap;
   justify-content: space-around;
   }
 
-.movie-container{
+.game-container{
   width: 340px;
  
 }
 
-.movie-poster{
+.game-poster{
   width:340px;
   height:500px;
   object-fit:cover;
 }
 
-.movie-specs{
+.game-specs{
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.movierating{
+.gamerating{
   font-size: 18px;
 }
 
-.movie-name{
+.game-name{
   font-size: 24px;
 
 }
 
-.movie-summary{
+.game-summary{
   margin: 0;
 }
 
@@ -56,9 +56,10 @@ body{
   font-size: 24px;
   gap:20px;
   margin: 20px;
+  justify-content: center;
 }
 
-.movieform{
+.gameform{
   margin:20px;
   height:min-content;
   display: flex;
@@ -71,6 +72,8 @@ body{
   max-width: 50rem;
   padding: 20px;
 }
+
+
 
 
 
